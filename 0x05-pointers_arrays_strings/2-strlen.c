@@ -4,7 +4,7 @@
  * @s: parameters
  * return length of string
  */
-void _strlen(char *s)
+int _strlen(char *s)
 {
 	int v;
 	int sum = 0;
