@@ -1,11 +1,11 @@
 #include "main.h"
 
-/* 
- * function - reset to 98
- * int - n
+/*
+ *reset_to_98 - the function name
+ *@n: function parameter
  */
 
 void reset_to_98(int *n)
 {
-	*n=98;
+	*n = 98;
 }
