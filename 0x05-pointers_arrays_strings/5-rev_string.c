@@ -10,6 +10,8 @@ void rev_string(char *s)
 
 	for (d = 0; s[d] != '\0'; d++)
 		c++;
-	for (d = c - 1; d >= 0; d--)
-		_putchar(s[d]);
+	for (d = o; d < c / 2; d++)
+		char j = s[d];
+			s[d] = s[c - 1 - d];
+			s[c - 1 - i] = j;
 }
