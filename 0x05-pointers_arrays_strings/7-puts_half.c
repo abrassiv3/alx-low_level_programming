@@ -8,12 +8,13 @@ void puts_half(char *str)
 {
 	int i;
 	int sum;
+	int b;
 
 	for (i = 0; str[i] != '\0'; i++)
 		sum++;
 
-	sum = sum / 2;
+	b = (sum - 1) / 2;
 
-	for (i = sum; str[i] != '\0'; i++)
+	for (i = b + 1; str[i] != '\0'; i++)
 		_putchar(str[i]);
 }
