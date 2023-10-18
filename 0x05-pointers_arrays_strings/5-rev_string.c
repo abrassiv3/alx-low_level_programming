@@ -4,7 +4,7 @@
   * @s: function parameter
   *
   */
-void rev_string(char *s);
+void rev_string(char *s)
 {
 	int i;
 	int sum = 0;
