@@ -5,7 +5,7 @@
   *@src: function parameter
   *Return: pointer to dest
   */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int c;
@@ -13,9 +13,9 @@ char *_strcat(char *dest, char *src);
 	for (i = 0; dest[i] != '\0'; i++)
 		c++;
 	for (i = 0; dest[i] < c; i++)
-		_putchar(dest[i])
+		_putchar(dest[i]);
 			if (dest[i] == c)
-				while (str[i] != '\0')
-					_putchar(str[i]);
-	return (*dest);
+				while (src[i] != '\0')
+					_putchar(src[i]);
+	return (dest);
 }
