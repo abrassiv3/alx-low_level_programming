@@ -7,15 +7,23 @@
   */
 char *_strcat(char *dest, char *src)
 {
-	int i;
-	int c;
+int k, r;
 
-	for (i = 0; dest[i] != '\0'; i++)
-		c++;
-	for (i = 0; dest[i] < c; i++)
-		_putchar(dest[i]);
-			if (dest[i] == c)
-				while (src[i] != '\0')
-					_putchar(src[i]);
-	return (dest);
+k = 0;
+r = 0;
+
+while (dest[k] != '\0')
+{
+	k++;
 }
+
+while (src[r] != '\0')
+{
+	dest[k] = src[r];
+	k++;
+	r++;
+}
+dest[k] = '\0';
+return (dest);
+}
+
