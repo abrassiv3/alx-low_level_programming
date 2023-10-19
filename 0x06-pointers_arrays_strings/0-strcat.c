@@ -3,6 +3,7 @@
   *_strcat - function name
   *@dest: function parameter
   *@src: function parameter
+  *Return: pointer to dest
   */
 char *_strcat(char *dest, char *src);
 {
@@ -16,5 +17,5 @@ char *_strcat(char *dest, char *src);
 			if (dest[i] == c)
 				while (str[i] != '\0')
 					_putchar(str[i]);
-	return(*dest);
+	return (*dest);
 }
