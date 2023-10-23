@@ -9,7 +9,7 @@ int main(void)
 
 	for (r = '0'; r <= '8'; r++)
 		putchar(r);
-		if (r == 0;)
+		if (r == 0)
 			continue;
 		putchar(',');
 		putchar(' ');
