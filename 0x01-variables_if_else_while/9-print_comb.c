@@ -7,13 +7,14 @@ int main(void)
 {
 	int r;
 
-	for (r = '0'; r <= '8'; r++)
-		putchar(r);
-		if (r == 0)
+	for (r = 0; r <= 9; r++)
+	{
+		putchar((r % 10) + '0');
+		if (r == 9)
 			continue;
+
 		putchar(',');
 		putchar(' ');
-	putchar('9');
-
+	}
 	return (0);
 }
