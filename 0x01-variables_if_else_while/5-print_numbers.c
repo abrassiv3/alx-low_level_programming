@@ -7,7 +7,7 @@ int main(void)
 {
 	int e;
 
-	for (e = '0'; e <= '9'; e++)
+	for (e = 0; e < 10; e++)
 		printf("%d\n", e);
 
 	return (0);
