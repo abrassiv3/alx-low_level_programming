@@ -8,9 +8,10 @@ int main(void)
 	int r;
 
 	for (r = '0'; r <= '8'; r++)
-		putchar('r, ');
+		putchar('r');
+		putchar(',');
+		putchar(' ');
 	putchar('9');
 
 	return (0);
 }
-
