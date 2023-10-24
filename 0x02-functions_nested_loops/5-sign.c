@@ -16,7 +16,7 @@ int print_sign(int r)
 		_putchar('0');
 		return (0);
 	}
-	else if (r > 0)
+	else
 	{
 		_putchar('+');
 		return (1);
