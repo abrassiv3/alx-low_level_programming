@@ -18,6 +18,7 @@ void print_to_98(int n)
 			n++;
 			if (n == 97)
 			{
+				continue;
 				printf("98\n");
 			}
 
