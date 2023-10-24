@@ -10,6 +10,8 @@ void jack_bauer(void)
 
 	for (a = 0; a < 3; a++)
 		for (b = 0; b <= 9; b++)
+			if (b == 3)
+			continue;
 			for (c = 0; c < 6; c++)
 				for (d = 0; d <= 9; d++)
 					printf("%d%d:%d%d\n", a, b, c, d);
