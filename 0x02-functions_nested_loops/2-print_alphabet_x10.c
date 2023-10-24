@@ -14,6 +14,5 @@ _putchar(a);
 if (a == 'z'){
 _putchar('\n');
 }
-_putchar('\n');
 }
 }
