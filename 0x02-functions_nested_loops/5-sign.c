@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-  *print_sign - function name
-  *@r: Function parameter
-  *Return: 0
-  */
+ *print_sign - function name
+ *@r: Function parameter
+ *Return: 0
+ */
 int print_sign(int r)
 {
 	if (r < 0)
