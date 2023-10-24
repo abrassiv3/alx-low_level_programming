@@ -1,7 +1,7 @@
 #include "main.h"
 /**
   *_islower - function name
-  *@c - function parameter
+  *@c - Function parameter
   *Return: 0
   */
 int _islower(int c)
