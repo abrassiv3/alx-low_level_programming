@@ -4,7 +4,7 @@
   *@r - Function parameter
   *Return: 0
   */
-int print_sign(int n)
+int print_sign(int r)
 {
 if (r < 0){
 return (-1);
