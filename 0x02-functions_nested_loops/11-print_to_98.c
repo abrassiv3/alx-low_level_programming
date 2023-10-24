@@ -9,7 +9,7 @@ void print_to_98(int n)
 	int r;
 
 	if (n == 98)
-		_putchar(n);
+		printf("%d\n", n);
 	else if (n < 98)
 		for (r = n; r < 98; r++)
 		{
