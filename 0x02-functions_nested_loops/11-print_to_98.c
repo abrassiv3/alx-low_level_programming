@@ -7,15 +7,17 @@
   */
 void print_to_98(int n)
 {
-	int r;
-
-	if (n == 98)
+	if (n >= 98)
+	{
+		while (n > 98)
+			printf("%d, ", n--);
 		printf("%d\n", n);
-	else if (n < 98)
-		for (r = n; r <= 98; r++)
-		{
-			printf("%d, ", n);
-			n++;
-		}
-	printf("\b\b\b \n");
+	}
+
+	else
+	{
+		while (n < 98)
+			printf("%d, ", n++);
+		printf("%d\n", n);
+	}
 }
