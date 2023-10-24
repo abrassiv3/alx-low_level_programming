@@ -12,7 +12,7 @@ for (e = 0; e <= 9; e++)
 for (a = 'a'; a <= 'z'; a++){
 _putchar(a);
 if (a == 'z'){
-continue;
+_putchar('\n');
 }
 _putchar('\n');
 }
