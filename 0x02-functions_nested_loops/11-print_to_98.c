@@ -14,13 +14,6 @@ void print_to_98(int n)
 	else if (n < 98)
 		for (r = n; r < 98; r++)
 		{
-			printf("%d\n", n);
-			_putchar(',');
-			_putchar(' ');
-			if (r == 97)
-			{
-				r++;
-				_putchar(r);
-			}
+			printf("%d, \n", n);
 		}
 }
