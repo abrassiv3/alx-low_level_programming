@@ -8,11 +8,12 @@ void jack_bauer(void)
 {
 	int a, b, c, d;
 
-	for (a = 0; a < 3; a++)
-		for (b = 0; b <= 9; b++)
-			if (b == 3)
-			continue;
-			for (c = 0; c < 6; c++)
-				for (d = 0; d <= 9; d++)
-					printf("%d%d:%d%d\n", a, b, c, d);
+	for (a = 0; a <= 3; a++)
+		for (b = 0; b <= 59; b++)
+			_putchar((a / 10) + '0');
+			_putchar((a % 10) + '0');
+			_putchar(':');
+			_putchar((b / 10) + '0');
+			_putchar((b % 10) + '0');
+			_putchar('\n');
 }
