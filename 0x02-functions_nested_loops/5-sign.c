@@ -8,7 +8,7 @@ int print_sign(int r)
 {
 if (r < 0){
 _putchar('-');
-return(0);
+return(1);
 }
 else if (r == 0){
 _putchar('0');
