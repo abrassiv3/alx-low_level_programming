@@ -13,9 +13,12 @@ void more_numbers(void)
 	for (e = 0; e <= 9; e++)
 	{
 		for (i = '0'; i <= '9'; i++)
+		{
 			_putchar(i);
-			printf("1011121314");
-		_putchar('\n');
+			if (i == '9')
+			{
+				printf("1011121314\n");
+			}
+		}
 	}
-	return (0);
 }
