@@ -13,3 +13,4 @@ void print_most_numbers(void)
 		if (e == '2' || e == '4')
 			continue;
 	_putchar('\n');
+}
