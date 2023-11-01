@@ -18,7 +18,7 @@ void more_numbers(void)
 			if (i == '9')
 			{
 				printf("1011121314");
-                            _putchar('\n');
+                                _putchar('\n');
 			}
 		}
 	}
