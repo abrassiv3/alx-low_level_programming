@@ -5,4 +5,4 @@
   *@n: function parameter
   *Return: 0
   */
-void print_square(int n)
+void print_square(int size)
