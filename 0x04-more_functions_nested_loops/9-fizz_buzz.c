@@ -10,9 +10,9 @@ int main(void)
 	for (r = 1; r <= 100; r++)
 	{
 		if (r % 15 == 0)
-                {
-                        printf("FizzBuzz ");
-                }
+		{
+			printf("FizzBuzz ");
+		}
 		else if (r % 3 == 0)
 		{
 			printf("Fizz ");
