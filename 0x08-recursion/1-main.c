@@ -5,6 +5,6 @@
   */
 int main(void)
 {
-	_puts_recursion("This string needs to be printed");
+	_print_rev_recursion("\nis iti n reverse?");
 	return (0);
 }
