@@ -1,0 +1,1 @@
+This directory deals with More pointers arrays and strings.
