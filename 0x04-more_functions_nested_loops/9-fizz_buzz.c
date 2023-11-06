@@ -7,7 +7,7 @@ int main(void)
 {
 	int r;
 
-	for (r = 0; r <= 100; r++)
+	for (r = 1; r <= 100; r++)
 	{
 		if (r > 0 && r % 3 == 0)
 		{
