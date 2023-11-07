@@ -8,13 +8,13 @@ int main(void)
 {
 	int n;
 
-	n = factorial(5);
+	n = _pow_recursion(1, 1);
 	printf("%d\n", n);
-	n = factorial(3);
+	n = _pow_recursion(2, 0);
 	printf("%d\n", n);
-	n = factorial(-1);
+	n = _pow_recursion(3, 2);
 	printf("%d\n", n);
-	n = factorial(0);
+	n = _pow_recursion(2, 2);
 	printf("%d\n", n);
 	return (0);
 }
