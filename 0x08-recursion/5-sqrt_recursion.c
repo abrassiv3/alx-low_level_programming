@@ -16,6 +16,7 @@ int sqrchk(int a, int b)
 		return (-1);
 	}
 	return (sqrchk(a, (b + 1)));
+}
 /**
   *_sqrt_recursion - function name
   *@n: function parameter
