@@ -7,7 +7,11 @@
   */
 int primcheck(int a, int b)
 {
-	if (a % b == 0)
+	if (a <= 1)
+	{
+		return (0);
+	}
+	else if (a % b == 0)
 	{
 		return (1);
 	}
