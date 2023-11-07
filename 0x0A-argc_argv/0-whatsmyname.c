@@ -5,8 +5,11 @@
   *@argv: function parameter
   *Return: 0
   */
-int main(int argc, char *argv)
+int main(int argc, char **argv)
 {
-	printf("%c", argv[0]);
+	int a;
+
+	for (a = 0; a < argc; a++)
+		printf("%s", argv[a]);
 	return (0);
 }
