@@ -11,7 +11,7 @@ int sqrchk(int a, int b)
 	{
 		return (b);
 	}
-	else if (b * b > 0)
+	else if (b * b > a)
 	{
 		return (-1);
 	}
