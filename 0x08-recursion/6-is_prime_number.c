@@ -14,11 +14,11 @@ int primcheck(int a, int b)
 	return (primcheck(a, b + 1));
 }
 /**
-  *_is_prime_number - function name
+  *is_prime_number - function name
   *@n: function parameter
   *Return: 1 if prime
   */
-int _is_prime_number(int n)
+int is_prime_number(int n)
 {
 	return (primcheck(n, 1));
 }
