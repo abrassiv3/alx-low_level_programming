@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 	{
 		for (n = 1; n < argc; n++)
 		{
-			*argv[n] =(*argv[n] - '0');
+			*argv[n] = (*argv[n] - '0');
 		}
 
 		p = *argv[1];
