@@ -9,7 +9,7 @@
 int main(int argc, char **argv)
 {
 	int p, q, r = 0;
-	
+
 	for (p = 1; p < argc; p++)
 	{
 		for (q = 0; argv[p][q]; q++)
