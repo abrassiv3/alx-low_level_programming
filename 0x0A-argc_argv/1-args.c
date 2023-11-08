@@ -7,7 +7,11 @@
   */
 int main(int argc, char **argv)
 {
+	int n;
+
 	(void) **argv;
-	printf("%d\n", argc);
+	n = argc - 1;
+	printf("%d\n", n);
+	
 	return (0);
 }
