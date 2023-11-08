@@ -9,17 +9,21 @@ int main(int argc, char **argv)
 {
 	int n, p, q, r;
 
-	n = argc;
-	printf("%d\n", n);
+	if (argc > 2 && argc < 4)
+	{
+		for (n = 1; n < argc; n++)
+		{
+			*argv[n] =(*argv[n] - '0');
+		}
 
-	p = *argv[1];
-	printf("%d\n", p);
-
-	q = *argv[2];
-	printf("%d\n", q);
-
-	r = q * p;
-	printf("%d\n", r);
-
+		p = *argv[1];
+		q = *argv[2];
+		r = q * p;
+		printf("%d\n", r);
+	}
+	else
+	{
+		printf("Error\n");
+	}
 	return (0);
 }
