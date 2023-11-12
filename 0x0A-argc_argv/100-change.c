@@ -2,10 +2,12 @@
 #include <stdlib.h>
 /**
   * main-function name
-  * @argc: function parameter
-  * @argv: function parameter
-  * Return: 0
+  * coincount - function name
+  * @s: function parameter
+  * Return: coins - 1
   */
+int coincount(int s);
+
 int main(int argc, char *argv[])
 {
 	int s, coins;
@@ -17,37 +19,49 @@ int main(int argc, char *argv[])
 	else
 	{
 		s = atoi(argv[1]);
-		if (s >= 0)
+		if (s < 0)
+			printf("0\n");
+		else
 		{
-			while (s > 0)
-		{	
-			coins++;
-			if ((s - 25) >= 0)
-			{
-				s -= 25;
-				continue;
-			}
-			if ((s - 10) >= 0)
-			{
-				s -= 10;
-				continue;
-			}
-			if ((s - 5) >= 0)
-			{
-				s -= 5;
-				continue;
-			}
-			if ((s - 2) >= 0)
-			{
-				s -= 2;
-				continue;
-			}
-			s--;
-		}	
+			coins = coincount(s);
 			printf("%d\n", coins);
 		}
-		else
-			printf("0\n");
 	}
 	return (0);
+}
+/**
+  * coincount - function name
+  * @s: function parameter
+  * Return: coins - 1
+  */
+int coincount(int s)
+{
+	int coins = 0;
+
+	while (s >= 0)
+	{
+		coins++;
+		if ((s - 25) >= 0)
+		{
+			s -= 25;
+			continue;
+		}
+		if ((s - 10) >= 0)
+		{
+			s -= 10;
+			continue;
+		}
+		if ((s - 5) >= 0)
+		{
+			s -= 5;
+			continue
+		}
+		if ((s - 2) >= 0)
+		{
+			s -= 2;
+			continue;
+		}
+		s--;
+	}
+	return (coins - 1);
 }
