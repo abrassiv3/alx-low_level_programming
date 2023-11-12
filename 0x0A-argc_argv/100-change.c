@@ -54,7 +54,7 @@ int coincount(int s)
 		if ((s - 5) >= 0)
 		{
 			s -= 5;
-			continue
+			continue;
 		}
 		if ((s - 2) >= 0)
 		{
